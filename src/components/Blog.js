@@ -1,9 +1,12 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import posts from './../data/posts';
 import { NavLink } from 'react-router-dom';
+import Controles from './Controles';
 
 const Blog = () => {
  
+
+
     return (
         <div>
         <h2>Blog</h2>
@@ -18,6 +21,7 @@ const Blog = () => {
             })
           }
         </ul>
+        <Controles/>
       </div>
       );
 }
