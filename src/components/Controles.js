@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { useContext } from 'react';
 import { ContextoTema } from '../contextos/contextoTema';
 
-
+//Comentario de prueba
 
 const Controles = () => {
 
